@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-01-18T13:43:57.290Z</updated>
+  <updated>2017-01-21T06:12:50.531Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+GitHub搭建个人博客</title>
+    <link href="https://starwill.github.io/2017/01/23/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://starwill.github.io/2017/01/23/Hexo+GitHub搭建个人博客/</id>
+    <published>2017-01-22T16:00:00.000Z</published>
+    <updated>2017-01-21T06:12:50.531Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
+<h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。</p>
+<h3 id="什么是GitHub-Page？"><a href="#什么是GitHub-Page？" class="headerlink" title="什么是GitHub Page？"></a>什么是GitHub Page？</h3><p><a href="https://github.com/blog/272-github-pages" target="_blank" rel="external">GitHub Page</a>官方文档的介绍有这么一段话：<br><code>If you create a repository named you.github.com, where you is your username, and push content to it, we’ll automatically publish that to http://you.github.com. No FTP, no scp, no rsync, nothing. Just a simple git push and you’re done. You can put anything here you like. Use it as a customizable home for your Git repos. Create a blog and spread your ideas. Whatever you want!</code><br>那么我认为GitHub Page就是一个特殊容器，该容器的内容会自动显示在 http：//you.github.com 上。  </p>
+<h3 id="搭建一个GitHub-Hexo博客过程"><a href="#搭建一个GitHub-Hexo博客过程" class="headerlink" title="搭建一个GitHub+Hexo博客过程"></a>搭建一个GitHub+Hexo博客过程</h3><p>首先推荐这个博客<a href="http://www.tuicool.com/articles/ueI7naV" target="_blank" rel="external">简洁轻便的博客平台: Hexo详解</a>，特详细，我这个只是自我总结</p>
+<ol>
+<li>第一步自然是安装Node.js。这里直接官网下载安装就好。</li>
+<li><code>npm install -g hexo-cli</code>//全局安装hexo</li>
+<li><code>hexo init &lt;folder&gt;</code><br><code>npm install</code><br>//会在当前目录创建一个folder并且在此初始化hexo，关于初始化后的目录结构以及功能在官方文档<a href="https://hexo.io/docs/setup.html" target="_blank" rel="external">hexo</a>里都有介绍，我觉得需要耐下心来观看</li>
+<li>安装插件(这几个插件不是很懂)：<br><code>npm install npm install hexo-deployer-git --save</code>//hexo d部署到git插件<br><code>npm install hexo-generator-feed --save</code>  //RSS订阅插件<br><code>npm install hexo-generator-sitemap --save</code> //站点地图插件</li>
+<li><code>hexo server</code>//这时候可以启动hexo服务器查看运行效果，不过得切换到hexo得安装目录下运行。  </li>
+</ol>
+<p>ps：将hexo迁移到其他电脑上的过程和搭建的过程类似，不过因为是将hexo文件夹复制到新电脑，所以忽略<code>hexo init &lt;folder&gt;</code>这个命令就好。</p>
+<p>###</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;什么是Hexo？&quot;&gt;&lt;a href=&quot;#什么是Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo？&quot;&gt;&lt;/a&gt;什么是Hexo？&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel
+    
+    </summary>
+    
+    
+      <category term="技术 Hexo Git" scheme="https://starwill.github.io/tags/%E6%8A%80%E6%9C%AF-Hexo-Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
