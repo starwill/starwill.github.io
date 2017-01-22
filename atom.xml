@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-01-22T05:20:57.799Z</updated>
+  <updated>2017-01-22T07:09:38.188Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -16,14 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo+GitHub搭建个人博客</title>
-    <link href="https://starwill.github.io/2017/01/23/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://starwill.github.io/2017/01/23/Hexo+GitHub搭建个人博客/</id>
+    <title>JavaWeb学习笔记（一）</title>
+    <link href="https://starwill.github.io/2017/01/23/JavaWeb%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
+    <id>https://starwill.github.io/2017/01/23/JavaWeb开发学习心得/</id>
     <published>2017-01-22T16:00:00.000Z</published>
-    <updated>2017-01-22T05:20:57.799Z</updated>
+    <updated>2017-01-22T07:09:38.188Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一-HTML基础"><a href="#一-HTML基础" class="headerlink" title="一.HTML基础"></a>一.HTML基础</h1><h2 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h2><h3 id="1-文本控制标签"><a href="#1-文本控制标签" class="headerlink" title="1.文本控制标签"></a>1.文本控制标签</h3><p><code>&lt;p&gt;&lt;/p&gt;</code>  ：段落<br><code>&lt;br/&gt;</code>：（break row）换行<br><code>&lt;hr/&gt;</code>：创建水平线<br><code>&lt;h1&gt;&lt;/h1&gt;~&lt;h6&gt;&lt;/h6&gt;</code>：标题  </p>
+<h3 id="2-表格相关标签"><a href="#2-表格相关标签" class="headerlink" title="2.表格相关标签"></a>2.表格相关标签</h3><p><code>&lt;table&gt;&lt;/table&gt;</code>：常用属性有两个<br><strong>align</strong>（对齐，取值为left、center、right）<br><strong>border</strong>（表格边框大小，取值为数字，如border=”1”）<br><a id="more"></a> </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一-HTML基础&quot;&gt;&lt;a href=&quot;#一-HTML基础&quot; class=&quot;headerlink&quot; title=&quot;一.HTML基础&quot;&gt;&lt;/a&gt;一.HTML基础&lt;/h1&gt;&lt;h2 id=&quot;常用标签&quot;&gt;&lt;a href=&quot;#常用标签&quot; class=&quot;headerlink&quot; title=&quot;常用标签&quot;&gt;&lt;/a&gt;常用标签&lt;/h2&gt;&lt;h3 id=&quot;1-文本控制标签&quot;&gt;&lt;a href=&quot;#1-文本控制标签&quot; class=&quot;headerlink&quot; title=&quot;1.文本控制标签&quot;&gt;&lt;/a&gt;1.文本控制标签&lt;/h3&gt;&lt;p&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;  ：段落&lt;br&gt;&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;：（break row）换行&lt;br&gt;&lt;code&gt;&amp;lt;hr/&amp;gt;&lt;/code&gt;：创建水平线&lt;br&gt;&lt;code&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;~&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;&lt;/code&gt;：标题  &lt;/p&gt;
+&lt;h3 id=&quot;2-表格相关标签&quot;&gt;&lt;a href=&quot;#2-表格相关标签&quot; class=&quot;headerlink&quot; title=&quot;2.表格相关标签&quot;&gt;&lt;/a&gt;2.表格相关标签&lt;/h3&gt;&lt;p&gt;&lt;code&gt;&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code&gt;：常用属性有两个&lt;br&gt;&lt;strong&gt;align&lt;/strong&gt;（对齐，取值为left、center、right）&lt;br&gt;&lt;strong&gt;border&lt;/strong&gt;（表格边框大小，取值为数字，如border=”1”）&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaWeb" scheme="https://starwill.github.io/tags/JavaWeb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+GitHub搭建个人博客</title>
+    <link href="https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://starwill.github.io/2017/01/21/Hexo+GitHub搭建个人博客/</id>
+    <published>2017-01-20T16:00:00.000Z</published>
+    <updated>2017-01-22T07:10:49.967Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
-<h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。</p>
+<h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。<br><a id="more"></a></p>
 <h3 id="什么是GitHub-Page？"><a href="#什么是GitHub-Page？" class="headerlink" title="什么是GitHub Page？"></a>什么是GitHub Page？</h3><p><a href="https://github.com/blog/272-github-pages" target="_blank" rel="external">GitHub Page</a>官方文档的介绍有这么一段话：<br><code>If you create a repository named you.github.com, where you is your username, and push content to it, we’ll automatically publish that to http://you.github.com. No FTP, no scp, no rsync, nothing. Just a simple git push and you’re done. You can put anything here you like. Use it as a customizable home for your Git repos. Create a blog and spread your ideas. Whatever you want!</code><br>那么我认为GitHub Page就是一个特殊容器，该容器的内容会自动显示在 http：//you.github.com 上。  </p>
 <h3 id="搭建一个GitHub-Hexo博客过程"><a href="#搭建一个GitHub-Hexo博客过程" class="headerlink" title="搭建一个GitHub+Hexo博客过程"></a>搭建一个GitHub+Hexo博客过程</h3><p>首先推荐这个博客<a href="http://www.tuicool.com/articles/ueI7naV" target="_blank" rel="external">简洁轻便的博客平台: Hexo详解</a>，特详细，我这个只是自我总结</p>
 <ol>
@@ -39,38 +62,88 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;什么是Hexo？&quot;&gt;&lt;a href=&quot;#什么是Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo？&quot;&gt;&lt;/a&gt;什么是Hexo？&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel
+      &lt;h3 id=&quot;什么是Hexo？&quot;&gt;&lt;a href=&quot;#什么是Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo？&quot;&gt;&lt;/a&gt;什么是Hexo？&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;hexo&lt;/a&gt;是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  &lt;/p&gt;
+&lt;h3 id=&quot;那么，什么又是Node-js&quot;&gt;&lt;a href=&quot;#那么，什么又是Node-js&quot; class=&quot;headerlink&quot; title=&quot;那么，什么又是Node.js?&quot;&gt;&lt;/a&gt;那么，什么又是Node.js?&lt;/h3&gt;&lt;p&gt;在这篇文章里又关于Node.js的详细叙述&lt;a href=&quot;http://www.ibm.com/developerworks/cn/opensource/os-nodejs/&quot;&gt;Node.js究竟是什么？&lt;/a&gt;，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。&lt;br&gt;
     
     </summary>
     
     
-      <category term="Hexo" scheme="https://starwill.github.io/tags/Hexo/"/>
+      <category term="GitHub" scheme="https://starwill.github.io/tags/GitHub/"/>
     
-      <category term="Git" scheme="https://starwill.github.io/tags/Git/"/>
+      <category term="Hexo" scheme="https://starwill.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://starwill.github.io/2017/01/18/hello-world/"/>
-    <id>https://starwill.github.io/2017/01/18/hello-world/</id>
-    <published>2017-01-18T13:33:17.967Z</published>
-    <updated>2017-01-18T13:43:57.290Z</updated>
+    <title></title>
+    <link href="https://starwill.github.io/2017/01/16/git%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://starwill.github.io/2017/01/16/git学习/</id>
+    <published>2017-01-16T05:47:15.265Z</published>
+    <updated>2017-01-17T15:23:14.799Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<h1 id="Git学习笔记"><a href="#Git学习笔记" class="headerlink" title="Git学习笔记"></a>Git学习笔记</h1><h3 id="1、Git安装配置"><a href="#1、Git安装配置" class="headerlink" title="1、Git安装配置"></a>1、Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code></p>
+<h3 id="2、创建版本库以及添加文件（repository）"><a href="#2、创建版本库以及添加文件（repository）" class="headerlink" title="2、创建版本库以及添加文件（repository）"></a>2、创建版本库以及添加文件（repository）</h3><ol>
+<li>创建一个空目录即可  </li>
+<li>cd进入该目录，通过<code>git init</code>即可变成仓库，目录下会多出<code>.git</code>文件夹，关于文件夹的作用可在  <a href="http://blog.csdn.net/u010331406/article/details/49128607" target="_blank" rel="external">.git文件夹详解</a>详细了解</li>
+<li>关于添加文件，首先要新建或者更改一个已有文件。（只能跟踪文本文件，二进制文件无法跟踪。）然后通过一下命令：<br><code>git add readme.txt</code>//将添加或者修改文件提交的暂存区<br><code>git rm filename</code>//将删除操作提交到暂存区<br><code>git commit -m &quot;illustration&quot;</code>//将暂存区文件或操作提交到分支中，并说明<br><code>git status</code>//查看当前状态<br><code>git diff readme.txt</code>//查看修改的具体内容（只有在工作区和分支中文件不同时才会显示）</li>
+<li>运行原理<br>将工作区文件修改一个个添加（add）到暂存区（stage）中，然后将暂存区中的内容一次性提交到分支中（master）<br><img src="http://oi63esxp7.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170116204102.png" alt=""></li>
+</ol>
+<h3 id="3-版本控制"><a href="#3-版本控制" class="headerlink" title="3.版本控制"></a>3.版本控制</h3><ul>
+<li><code>git log</code>//查看每次提交的历史，用于历史的回退</li>
+<li><code>git reflog</code>//查看命令的历史，用于找回未来版本</li>
+<li><code>git reset --hard head</code>//<strong>head</strong> 表示当前当前版本 <strong>head^</strong> 表示上一个版本 <strong>head~100</strong> 表示前100个版本 也可以直接加文件名</li>
+<li><code>git checkout -- readme.txt</code>//丢弃工作区修改，也就是用版本库覆盖工作区的操作</li>
+</ul>
+<h3 id="4-分支命令"><a href="#4-分支命令" class="headerlink" title="4.分支命令"></a>4.分支命令</h3><p>分支的作用在于你不用一直在master分支上工作，确保你开发的代码不会影响到别人观看。<br>有关的分支命令：<br>查看分支：<code>git branch</code><br>创建分支:<code>git branch &lt;name&gt;</code><br>切换分支：<code>git checkout</code><br>创建+切换分支：<code>git checkout -b &lt;name&gt;</code><br>合并某分支到当前分支(master)：<code>git merge &lt;name&gt;</code><br>删除分支：<code>git branch -d &lt;name&gt;</code>  </p>
+<h3 id="5-远程仓库"><a href="#5-远程仓库" class="headerlink" title="5.远程仓库"></a>5.远程仓库</h3><ol>
+<li><h6 id="生成ssh-key免密登录"><a href="#生成ssh-key免密登录" class="headerlink" title="生成ssh key免密登录"></a>生成ssh key免密登录</h6><code>ssh-keygen -t rsa -C &quot;youremail@..&quot;</code>//在gitbash中输入该命令，会在user/yourusername/.ssh 文件夹下生成 <strong>id_rsa</strong> 和 <strong>id_rsa.pub</strong> 两个文件，然后将pub文件copy到github中的SSH KEY中。  </li>
+<li><h6 id="将本地分支与远程分支关联起来"><a href="#将本地分支与远程分支关联起来" class="headerlink" title="将本地分支与远程分支关联起来"></a>将本地分支与远程分支关联起来</h6>在GitHub上创建一个同名的版本库<br><code>git remote add origin git/github.com:starwill/test.git</code>//将本地仓库与远程仓库关联起来<br><code>git push -u origin master</code>//将本地内容推送到远程，第一次推送需要加<code>-u</code>，用于将本地master分支和远程master分支关联起来，以后的每次推送可以去掉。<br><code>git clone git/github.com:starwill/starwill.github.io</code>//将远程仓库clone到本地仓库</li>
+</ol>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;h1 id=&quot;Git学习笔记&quot;&gt;&lt;a href=&quot;#Git学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Git学习笔记&quot;&gt;&lt;/a&gt;Git学习笔记&lt;/h1&gt;&lt;h3 id=&quot;1、Git安装配置&quot;&gt;&lt;a href=&quot;#1、Git安装配置&quot; class=&quot;header
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://starwill.github.io/2016/12/28/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://starwill.github.io/2016/12/28/markdown语法/</id>
+    <published>2016-12-28T04:58:18.949Z</published>
+    <updated>2016-12-28T04:58:19.126Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h3 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""></p>
+<h3 id="2、列表"><a href="#2、列表" class="headerlink" title="2、列表"></a>2、列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
+<h3 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h3><p>使用尖括号&gt;<br><img src="http://oi63esxp7.bkt.clouddn.com/3.jpg" alt=""></p>
+<h3 id="4、图片与链接"><a href="#4、图片与链接" class="headerlink" title="4、图片与链接"></a>4、图片与链接</h3><p>区别在于是否有感叹号<br><img src="http://oi63esxp7.bkt.clouddn.com/4.jpg" alt=""></p>
+<h3 id="5、粗体与斜体"><a href="#5、粗体与斜体" class="headerlink" title="5、粗体与斜体"></a>5、粗体与斜体</h3><p>用两个 * 包含的是粗体用法，也就是(&lowast;&lowast;)  </p>
+<p><strong>这里是粗体</strong>   <em>这里是斜体</em>  </p>
+<h3 id="6、代码框"><a href="#6、代码框" class="headerlink" title="6、代码框"></a>6、代码框</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/7.PNG" alt=""><br>或者直接用``将代码区域包含起来即可<br><img src="http://oi63esxp7.bkt.clouddn.com/5.jpg" alt=""></p>
+<h3 id="7、表格"><a href="#7、表格" class="headerlink" title="7、表格"></a>7、表格</h3><p>直接输入table会跳出如下<br><img src="http://oi63esxp7.bkt.clouddn.com/8.PNG" alt=""><br>显示如下：  </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Header One</th>
+<th style="text-align:left">Header Two</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Item One</td>
+<td style="text-align:left">Item Two</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;markdown语法&quot;&gt;&lt;a href=&quot;#markdown语法&quot; class=&quot;headerlink&quot; title=&quot;markdown语法&quot;&gt;&lt;/a&gt;markdown语法&lt;/h1&gt;&lt;h3 id=&quot;1、标题&quot;&gt;&lt;a href=&quot;#1、标题&quot; class=&quot;head
     
     </summary>
     
