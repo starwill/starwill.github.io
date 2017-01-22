@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-01-21T06:12:50.531Z</updated>
+  <updated>2017-01-22T05:20:57.799Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://starwill.github.io/2017/01/23/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://starwill.github.io/2017/01/23/Hexo+GitHub搭建个人博客/</id>
     <published>2017-01-22T16:00:00.000Z</published>
-    <updated>2017-01-21T06:12:50.531Z</updated>
+    <updated>2017-01-22T05:20:57.799Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
 <h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。</p>
@@ -44,7 +44,9 @@
     </summary>
     
     
-      <category term="技术 Hexo Git" scheme="https://starwill.github.io/tags/%E6%8A%80%E6%9C%AF-Hexo-Git/"/>
+      <category term="Hexo" scheme="https://starwill.github.io/tags/Hexo/"/>
+    
+      <category term="Git" scheme="https://starwill.github.io/tags/Git/"/>
     
   </entry>
   
