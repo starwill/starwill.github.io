@@ -43,7 +43,7 @@
     <link href="https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://starwill.github.io/2017/01/21/Hexo+GitHub搭建个人博客/</id>
     <published>2017-01-20T16:00:00.000Z</published>
-    <updated>2017-01-22T07:10:49.967Z</updated>
+    <updated>2017-02-19T12:53:26.148Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
 <h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。<br><a id="more"></a></p>
@@ -75,13 +75,13 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Git学习笔记</title>
     <link href="https://starwill.github.io/2017/01/16/git%E5%AD%A6%E4%B9%A0/"/>
     <id>https://starwill.github.io/2017/01/16/git学习/</id>
-    <published>2017-01-16T05:47:15.265Z</published>
-    <updated>2017-01-17T15:23:14.799Z</updated>
+    <published>2017-01-15T16:00:00.000Z</published>
+    <updated>2017-02-19T12:53:21.913Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Git学习笔记"><a href="#Git学习笔记" class="headerlink" title="Git学习笔记"></a>Git学习笔记</h1><h3 id="1、Git安装配置"><a href="#1、Git安装配置" class="headerlink" title="1、Git安装配置"></a>1、Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code></p>
+    <content type="html"><![CDATA[<h3 id="1、Git安装配置"><a href="#1、Git安装配置" class="headerlink" title="1、Git安装配置"></a>1、Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code><br><a id="more"></a></p>
 <h3 id="2、创建版本库以及添加文件（repository）"><a href="#2、创建版本库以及添加文件（repository）" class="headerlink" title="2、创建版本库以及添加文件（repository）"></a>2、创建版本库以及添加文件（repository）</h3><ol>
 <li>创建一个空目录即可  </li>
 <li>cd进入该目录，通过<code>git init</code>即可变成仓库，目录下会多出<code>.git</code>文件夹，关于文件夹的作用可在  <a href="http://blog.csdn.net/u010331406/article/details/49128607" target="_blank" rel="external">.git文件夹详解</a>详细了解</li>
@@ -103,21 +103,25 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Git学习笔记&quot;&gt;&lt;a href=&quot;#Git学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Git学习笔记&quot;&gt;&lt;/a&gt;Git学习笔记&lt;/h1&gt;&lt;h3 id=&quot;1、Git安装配置&quot;&gt;&lt;a href=&quot;#1、Git安装配置&quot; class=&quot;header
+      &lt;h3 id=&quot;1、Git安装配置&quot;&gt;&lt;a href=&quot;#1、Git安装配置&quot; class=&quot;headerlink&quot; title=&quot;1、Git安装配置&quot;&gt;&lt;/a&gt;1、Git安装配置&lt;/h3&gt;&lt;p&gt;windows下安装直接下载&lt;a href=&quot;https://www.git-scm.com/download/win&quot;&gt;Git&lt;/a&gt;可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址&lt;br&gt;&lt;code&gt;git config --global user.name &amp;quot;starwill&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;git config --global user.email &amp;quot;email address&amp;quot;&lt;/code&gt;&lt;br&gt;查看配置项：&lt;code&gt;git config -l&lt;/code&gt;&lt;br&gt;
     
     </summary>
     
     
+      <category term="GitHub" scheme="https://starwill.github.io/tags/GitHub/"/>
+    
+      <category term="Git" scheme="https://starwill.github.io/tags/Git/"/>
+    
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://starwill.github.io/2016/12/28/markdown%E8%AF%AD%E6%B3%95/"/>
-    <id>https://starwill.github.io/2016/12/28/markdown语法/</id>
-    <published>2016-12-28T04:58:18.949Z</published>
-    <updated>2016-12-28T04:58:19.126Z</updated>
+    <title>markdown语法</title>
+    <link href="https://starwill.github.io/2016/12/26/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://starwill.github.io/2016/12/26/markdown语法/</id>
+    <published>2016-12-25T16:00:00.000Z</published>
+    <updated>2017-02-19T12:53:20.338Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h3 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""></p>
+    <content type="html"><![CDATA[<h3 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""><br><a id="more"></a></p>
 <h3 id="2、列表"><a href="#2、列表" class="headerlink" title="2、列表"></a>2、列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
 <h3 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h3><p>使用尖括号&gt;<br><img src="http://oi63esxp7.bkt.clouddn.com/3.jpg" alt=""></p>
 <h3 id="4、图片与链接"><a href="#4、图片与链接" class="headerlink" title="4、图片与链接"></a>4、图片与链接</h3><p>区别在于是否有感叹号<br><img src="http://oi63esxp7.bkt.clouddn.com/4.jpg" alt=""></p>
@@ -143,10 +147,14 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;markdown语法&quot;&gt;&lt;a href=&quot;#markdown语法&quot; class=&quot;headerlink&quot; title=&quot;markdown语法&quot;&gt;&lt;/a&gt;markdown语法&lt;/h1&gt;&lt;h3 id=&quot;1、标题&quot;&gt;&lt;a href=&quot;#1、标题&quot; class=&quot;head
+      &lt;h3 id=&quot;1、标题&quot;&gt;&lt;a href=&quot;#1、标题&quot; class=&quot;headerlink&quot; title=&quot;1、标题&quot;&gt;&lt;/a&gt;1、标题&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://oi63esxp7.bkt.clouddn.com/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
     
     </summary>
     
+    
+      <category term="GitHub" scheme="https://starwill.github.io/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="https://starwill.github.io/tags/Hexo/"/>
     
   </entry>
   
