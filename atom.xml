@@ -39,11 +39,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+GitHub搭建个人博客</title>
+    <title>Hexo+GitHub个人博客的搭建及使用</title>
     <link href="https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://starwill.github.io/2017/01/21/Hexo+GitHub搭建个人博客/</id>
     <published>2017-01-20T16:00:00.000Z</published>
-    <updated>2017-02-19T12:53:26.148Z</updated>
+    <updated>2017-02-19T14:39:58.915Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
 <h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。<br><a id="more"></a></p>
@@ -57,7 +57,19 @@
 <li><code>hexo server</code>//这时候可以启动hexo服务器查看运行效果，不过得切换到hexo得安装目录下运行。  </li>
 </ol>
 <p>ps：将hexo迁移到其他电脑上的过程和搭建的过程类似，不过因为是将hexo文件夹复制到新电脑，所以忽略<code>hexo init &lt;folder&gt;</code>这个命令就好。</p>
-<p>###</p>
+<h3 id="主题基本设置"><a href="#主题基本设置" class="headerlink" title="主题基本设置"></a>主题基本设置</h3><p>首先要在hexo的安装目录下更改_config.yml全局配置文件，需要更改的属性不多。示例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">title: 阿星的博客</div><div class="line">subtitle:</div><div class="line">description:</div><div class="line">author: Starwill</div><div class="line">language: zh-Hans</div><div class="line">timezone: Asia/Shanghai</div><div class="line"></div><div class="line">theme: hexo-theme-next//这里配置使用主题</div><div class="line"></div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:starwill/starwill.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
+<p>其次就是选择主题了，官方主题给的是landscape，不过为了体现GitHub自定义博客与其他博客的不同（装个XX），大部分人还是选择一些民间大神自定义的主题。这里推荐两款主题：<a href="https://github.com/forsigner/fexo" target="_blank" rel="external">fexo</a>和<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>，NexT主题是使用人数最多的，这个配置只需要严格按照官方文档设置就行 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next使用文档</a>.(注：千万不要瞎删东西，不过删了也可以通过git找回)</p>
+<h3 id="初步使用！！！！"><a href="#初步使用！！！！" class="headerlink" title="初步使用！！！！"></a>初步使用！！！！</h3><p>这个狂想吐槽！！！！（当你deploy过后有的链接如分类关于这样的点开后显示404，那么，并不是主题部署出错啊啊啊！为这个我换了NNN个主题！！）<br>hexo的目录基本使用只需要看scaffolds（模板目录）、source（资源目录，存放文章和分类标签之类的文件夹）。  </p>
+<p>首先需要建立About、Categories、tags页面<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo new page &quot;about&quot;</div><div class="line">hexo new page &quot;catetories&quot;</div><div class="line">hexo new page &quot;tags&quot;</div></pre></td></tr></table></figure></p>
+<p>这样source文件夹下就有了三个about、catetories、tags命名的文件夹以及各自的index页面。当然最后还要在主题配置文件里面的menu一下添加url如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">menu:</div><div class="line">  home: /</div><div class="line">  categories: /categories</div><div class="line">  about: /about</div><div class="line">  archives: /archives</div><div class="line">  tags: /tags</div></pre></td></tr></table></figure></p>
+<p>然后下面关于写文章就比较简单了。<br>创建一篇文章，<br><code>hexo new [layout] &quot;title&quot;</code>这里的layout是scaffolds文件夹下的三个模板，省略的话就会自动选择post模板，为了方便博客的编写，我们可以将模板改成下面这种形式：</p>
+<pre><code class="---">title: {{ title }}
+date: {{ date }}  
+catetories:
+tags: [GitHub,Hexo]
+---
+</code></pre>
+<p>注意如果tags有多个的话需要加[]。显示一部分内容需要在分割线下加<!--more-->。</p>
 ]]></content>
     
     <summary type="html">
@@ -79,7 +91,7 @@
     <link href="https://starwill.github.io/2017/01/16/git%E5%AD%A6%E4%B9%A0/"/>
     <id>https://starwill.github.io/2017/01/16/git学习/</id>
     <published>2017-01-15T16:00:00.000Z</published>
-    <updated>2017-02-19T12:53:21.913Z</updated>
+    <updated>2017-02-19T14:40:03.617Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1、Git安装配置"><a href="#1、Git安装配置" class="headerlink" title="1、Git安装配置"></a>1、Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code><br><a id="more"></a></p>
 <h3 id="2、创建版本库以及添加文件（repository）"><a href="#2、创建版本库以及添加文件（repository）" class="headerlink" title="2、创建版本库以及添加文件（repository）"></a>2、创建版本库以及添加文件（repository）</h3><ol>
@@ -119,7 +131,7 @@
     <link href="https://starwill.github.io/2016/12/26/markdown%E8%AF%AD%E6%B3%95/"/>
     <id>https://starwill.github.io/2016/12/26/markdown语法/</id>
     <published>2016-12-25T16:00:00.000Z</published>
-    <updated>2017-02-19T12:53:20.338Z</updated>
+    <updated>2017-02-19T14:38:05.288Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""><br><a id="more"></a></p>
 <h3 id="2、列表"><a href="#2、列表" class="headerlink" title="2、列表"></a>2、列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
@@ -152,9 +164,7 @@
     </summary>
     
     
-      <category term="GitHub" scheme="https://starwill.github.io/tags/GitHub/"/>
-    
-      <category term="Hexo" scheme="https://starwill.github.io/tags/Hexo/"/>
+      <category term="markdown" scheme="https://starwill.github.io/tags/markdown/"/>
     
   </entry>
   
