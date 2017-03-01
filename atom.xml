@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-01-22T07:09:38.188Z</updated>
+  <updated>2017-03-01T06:36:41.366Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AS一个错误的解决办法</title>
+    <link href="https://starwill.github.io/2017/03/01/AS%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://starwill.github.io/2017/03/01/AS一个错误的解决办法/</id>
+    <published>2017-03-01T05:52:39.000Z</published>
+    <updated>2017-03-01T06:36:41.366Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近开始项目实训，正踌躇满志的时候给我来个一天也没解决的bug，项目中没有报错，可是不管clean还是rebuild都无法找回丢失的R文件，错误如下：</p>
+<pre><code>Error:Execution failed for task &apos;:app:mergeDebugResources&apos;.
+&gt; Error: java.util.concurrent.ExecutionException: com.android.ide.common.process.ProcessException:
+</code></pre><p>这里不说废话，解决方法如下：在app的.gradle中加入下面这两句话：<br><img src="http://oi63esxp7.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170301140411.png" alt=""><br>百度了一下这两句话主要作用是关闭.png图片的合法性检查，想了下遇到过两次这种错误的确导入过别人的drawable资源。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近开始项目实训，正踌躇满志的时候给我来个一天也没解决的bug，项目中没有报错，可是不管clean还是rebuild都无法找回丢失的R文件，错误如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Error:Execution failed for task &amp;apos;:app:mer
+    
+    </summary>
+    
+    
+      <category term="Android_Studio" scheme="https://starwill.github.io/tags/Android-Studio/"/>
+    
+      <category term="Debug" scheme="https://starwill.github.io/tags/Debug/"/>
+    
+      <category term="Error" scheme="https://starwill.github.io/tags/Error/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaWeb学习笔记（一）</title>
@@ -43,7 +72,7 @@
     <link href="https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://starwill.github.io/2017/01/21/Hexo+GitHub搭建个人博客/</id>
     <published>2017-01-20T16:00:00.000Z</published>
-    <updated>2017-02-19T14:39:58.915Z</updated>
+    <updated>2017-03-01T06:37:45.119Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
 <h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。<br><a id="more"></a></p>
@@ -91,23 +120,23 @@ tags: [GitHub,Hexo]
     <link href="https://starwill.github.io/2017/01/16/git%E5%AD%A6%E4%B9%A0/"/>
     <id>https://starwill.github.io/2017/01/16/git学习/</id>
     <published>2017-01-15T16:00:00.000Z</published>
-    <updated>2017-02-19T14:40:03.617Z</updated>
+    <updated>2017-03-01T06:36:30.361Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1、Git安装配置"><a href="#1、Git安装配置" class="headerlink" title="1、Git安装配置"></a>1、Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code><br><a id="more"></a></p>
-<h3 id="2、创建版本库以及添加文件（repository）"><a href="#2、创建版本库以及添加文件（repository）" class="headerlink" title="2、创建版本库以及添加文件（repository）"></a>2、创建版本库以及添加文件（repository）</h3><ol>
+    <content type="html"><![CDATA[<h3 id="Git安装配置"><a href="#Git安装配置" class="headerlink" title="Git安装配置"></a>Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code><br><a id="more"></a></p>
+<h3 id="创建版本库以及添加文件（repository）"><a href="#创建版本库以及添加文件（repository）" class="headerlink" title="创建版本库以及添加文件（repository）"></a>创建版本库以及添加文件（repository）</h3><ol>
 <li>创建一个空目录即可  </li>
 <li>cd进入该目录，通过<code>git init</code>即可变成仓库，目录下会多出<code>.git</code>文件夹，关于文件夹的作用可在  <a href="http://blog.csdn.net/u010331406/article/details/49128607" target="_blank" rel="external">.git文件夹详解</a>详细了解</li>
 <li>关于添加文件，首先要新建或者更改一个已有文件。（只能跟踪文本文件，二进制文件无法跟踪。）然后通过一下命令：<br><code>git add readme.txt</code>//将添加或者修改文件提交的暂存区<br><code>git rm filename</code>//将删除操作提交到暂存区<br><code>git commit -m &quot;illustration&quot;</code>//将暂存区文件或操作提交到分支中，并说明<br><code>git status</code>//查看当前状态<br><code>git diff readme.txt</code>//查看修改的具体内容（只有在工作区和分支中文件不同时才会显示）</li>
 <li>运行原理<br>将工作区文件修改一个个添加（add）到暂存区（stage）中，然后将暂存区中的内容一次性提交到分支中（master）<br><img src="http://oi63esxp7.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170116204102.png" alt=""></li>
 </ol>
-<h3 id="3-版本控制"><a href="#3-版本控制" class="headerlink" title="3.版本控制"></a>3.版本控制</h3><ul>
+<h3 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h3><ul>
 <li><code>git log</code>//查看每次提交的历史，用于历史的回退</li>
 <li><code>git reflog</code>//查看命令的历史，用于找回未来版本</li>
 <li><code>git reset --hard head</code>//<strong>head</strong> 表示当前当前版本 <strong>head^</strong> 表示上一个版本 <strong>head~100</strong> 表示前100个版本 也可以直接加文件名</li>
 <li><code>git checkout -- readme.txt</code>//丢弃工作区修改，也就是用版本库覆盖工作区的操作</li>
 </ul>
-<h3 id="4-分支命令"><a href="#4-分支命令" class="headerlink" title="4.分支命令"></a>4.分支命令</h3><p>分支的作用在于你不用一直在master分支上工作，确保你开发的代码不会影响到别人观看。<br>有关的分支命令：<br>查看分支：<code>git branch</code><br>创建分支:<code>git branch &lt;name&gt;</code><br>切换分支：<code>git checkout</code><br>创建+切换分支：<code>git checkout -b &lt;name&gt;</code><br>合并某分支到当前分支(master)：<code>git merge &lt;name&gt;</code><br>删除分支：<code>git branch -d &lt;name&gt;</code>  </p>
-<h3 id="5-远程仓库"><a href="#5-远程仓库" class="headerlink" title="5.远程仓库"></a>5.远程仓库</h3><ol>
+<h3 id="分支命令"><a href="#分支命令" class="headerlink" title="分支命令"></a>分支命令</h3><p>分支的作用在于你不用一直在master分支上工作，确保你开发的代码不会影响到别人观看。<br>有关的分支命令：<br>查看分支：<code>git branch</code><br>创建分支:<code>git branch &lt;name&gt;</code><br>切换分支：<code>git checkout</code><br>创建+切换分支：<code>git checkout -b &lt;name&gt;</code><br>合并某分支到当前分支(master)：<code>git merge &lt;name&gt;</code><br>删除分支：<code>git branch -d &lt;name&gt;</code>  </p>
+<h3 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h3><ol>
 <li><h6 id="生成ssh-key免密登录"><a href="#生成ssh-key免密登录" class="headerlink" title="生成ssh key免密登录"></a>生成ssh key免密登录</h6><code>ssh-keygen -t rsa -C &quot;youremail@..&quot;</code>//在gitbash中输入该命令，会在user/yourusername/.ssh 文件夹下生成 <strong>id_rsa</strong> 和 <strong>id_rsa.pub</strong> 两个文件，然后将pub文件copy到github中的SSH KEY中。  </li>
 <li><h6 id="将本地分支与远程分支关联起来"><a href="#将本地分支与远程分支关联起来" class="headerlink" title="将本地分支与远程分支关联起来"></a>将本地分支与远程分支关联起来</h6>在GitHub上创建一个同名的版本库<br><code>git remote add origin git/github.com:starwill/test.git</code>//将本地仓库与远程仓库关联起来<br><code>git push -u origin master</code>//将本地内容推送到远程，第一次推送需要加<code>-u</code>，用于将本地master分支和远程master分支关联起来，以后的每次推送可以去掉。<br><code>git clone git/github.com:starwill/starwill.github.io</code>//将远程仓库clone到本地仓库</li>
 </ol>
@@ -115,7 +144,7 @@ tags: [GitHub,Hexo]
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1、Git安装配置&quot;&gt;&lt;a href=&quot;#1、Git安装配置&quot; class=&quot;headerlink&quot; title=&quot;1、Git安装配置&quot;&gt;&lt;/a&gt;1、Git安装配置&lt;/h3&gt;&lt;p&gt;windows下安装直接下载&lt;a href=&quot;https://www.git-scm.com/download/win&quot;&gt;Git&lt;/a&gt;可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址&lt;br&gt;&lt;code&gt;git config --global user.name &amp;quot;starwill&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;git config --global user.email &amp;quot;email address&amp;quot;&lt;/code&gt;&lt;br&gt;查看配置项：&lt;code&gt;git config -l&lt;/code&gt;&lt;br&gt;
+      &lt;h3 id=&quot;Git安装配置&quot;&gt;&lt;a href=&quot;#Git安装配置&quot; class=&quot;headerlink&quot; title=&quot;Git安装配置&quot;&gt;&lt;/a&gt;Git安装配置&lt;/h3&gt;&lt;p&gt;windows下安装直接下载&lt;a href=&quot;https://www.git-scm.com/download/win&quot;&gt;Git&lt;/a&gt;可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址&lt;br&gt;&lt;code&gt;git config --global user.name &amp;quot;starwill&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;git config --global user.email &amp;quot;email address&amp;quot;&lt;/code&gt;&lt;br&gt;查看配置项：&lt;code&gt;git config -l&lt;/code&gt;&lt;br&gt;
     
     </summary>
     
@@ -131,16 +160,17 @@ tags: [GitHub,Hexo]
     <link href="https://starwill.github.io/2016/12/26/markdown%E8%AF%AD%E6%B3%95/"/>
     <id>https://starwill.github.io/2016/12/26/markdown语法/</id>
     <published>2016-12-25T16:00:00.000Z</published>
-    <updated>2017-02-19T14:38:05.288Z</updated>
+    <updated>2017-03-01T06:37:29.077Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""><br><a id="more"></a></p>
-<h3 id="2、列表"><a href="#2、列表" class="headerlink" title="2、列表"></a>2、列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
-<h3 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h3><p>使用尖括号&gt;<br><img src="http://oi63esxp7.bkt.clouddn.com/3.jpg" alt=""></p>
-<h3 id="4、图片与链接"><a href="#4、图片与链接" class="headerlink" title="4、图片与链接"></a>4、图片与链接</h3><p>区别在于是否有感叹号<br><img src="http://oi63esxp7.bkt.clouddn.com/4.jpg" alt=""></p>
-<h3 id="5、粗体与斜体"><a href="#5、粗体与斜体" class="headerlink" title="5、粗体与斜体"></a>5、粗体与斜体</h3><p>用两个 * 包含的是粗体用法，也就是(&lowast;&lowast;)  </p>
+    <content type="html"><![CDATA[<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""><br><a id="more"></a></p>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>使用尖括号&gt;<br><img src="http://oi63esxp7.bkt.clouddn.com/3.jpg" alt=""></p>
+<h3 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h3><p>区别在于是否有感叹号<br><img src="http://oi63esxp7.bkt.clouddn.com/4.jpg" alt=""></p>
+<h3 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h3><p>用两个 * 包含的是粗体用法，也就是(&lowast;&lowast;)  </p>
 <p><strong>这里是粗体</strong>   <em>这里是斜体</em>  </p>
-<h3 id="6、代码框"><a href="#6、代码框" class="headerlink" title="6、代码框"></a>6、代码框</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/7.PNG" alt=""><br>或者直接用``将代码区域包含起来即可<br><img src="http://oi63esxp7.bkt.clouddn.com/5.jpg" alt=""></p>
-<h3 id="7、表格"><a href="#7、表格" class="headerlink" title="7、表格"></a>7、表格</h3><p>直接输入table会跳出如下<br><img src="http://oi63esxp7.bkt.clouddn.com/8.PNG" alt=""><br>显示如下：  </p>
+<h3 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/7.PNG" alt=""><br>或者直接用 ``将代码区域包含起来即可  </p>
+<p><img src="http://oi63esxp7.bkt.clouddn.com/5.jpg" alt=""></p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>直接输入table会跳出如下<br><img src="http://oi63esxp7.bkt.clouddn.com/8.PNG" alt=""><br>显示如下：  </p>
 <table>
 <thead>
 <tr>
@@ -159,7 +189,7 @@ tags: [GitHub,Hexo]
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1、标题&quot;&gt;&lt;a href=&quot;#1、标题&quot; class=&quot;headerlink&quot; title=&quot;1、标题&quot;&gt;&lt;/a&gt;1、标题&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://oi63esxp7.bkt.clouddn.com/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+      &lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://oi63esxp7.bkt.clouddn.com/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
     
     </summary>
     
