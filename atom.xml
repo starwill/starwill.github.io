@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-03-01T06:36:41.366Z</updated>
+  <updated>2017-03-01T10:54:54.090Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://starwill.github.io/2017/03/01/AS%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     <id>https://starwill.github.io/2017/03/01/AS一个错误的解决办法/</id>
     <published>2017-03-01T05:52:39.000Z</published>
-    <updated>2017-03-01T06:36:41.366Z</updated>
+    <updated>2017-03-01T10:54:54.090Z</updated>
     
     <content type="html"><![CDATA[<p>最近开始项目实训，正踌躇满志的时候给我来个一天也没解决的bug，项目中没有报错，可是不管clean还是rebuild都无法找回丢失的R文件，错误如下：</p>
 <pre><code>Error:Execution failed for task &apos;:app:mergeDebugResources&apos;.
@@ -49,10 +49,10 @@
     <link href="https://starwill.github.io/2017/01/23/JavaWeb%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>https://starwill.github.io/2017/01/23/JavaWeb开发学习心得/</id>
     <published>2017-01-22T16:00:00.000Z</published>
-    <updated>2017-01-22T07:09:38.188Z</updated>
+    <updated>2017-03-01T10:55:14.198Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一-HTML基础"><a href="#一-HTML基础" class="headerlink" title="一.HTML基础"></a>一.HTML基础</h1><h2 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h2><h3 id="1-文本控制标签"><a href="#1-文本控制标签" class="headerlink" title="1.文本控制标签"></a>1.文本控制标签</h3><p><code>&lt;p&gt;&lt;/p&gt;</code>  ：段落<br><code>&lt;br/&gt;</code>：（break row）换行<br><code>&lt;hr/&gt;</code>：创建水平线<br><code>&lt;h1&gt;&lt;/h1&gt;~&lt;h6&gt;&lt;/h6&gt;</code>：标题  </p>
-<h3 id="2-表格相关标签"><a href="#2-表格相关标签" class="headerlink" title="2.表格相关标签"></a>2.表格相关标签</h3><p><code>&lt;table&gt;&lt;/table&gt;</code>：常用属性有两个<br><strong>align</strong>（对齐，取值为left、center、right）<br><strong>border</strong>（表格边框大小，取值为数字，如border=”1”）<br><a id="more"></a> </p>
+<h3 id="2-表格相关标签"><a href="#2-表格相关标签" class="headerlink" title="2.表格相关标签"></a>2.表格相关标签</h3><p><code>&lt;table&gt;&lt;/table&gt;</code>：常用属性有两个<br><strong>align</strong>（对齐，取值为left、center、right）<br><strong>border</strong>（表格边框大小，取值为数字，如border=”1”）<br><a id="more"></a></p>
 ]]></content>
     
     <summary type="html">
@@ -72,7 +72,7 @@
     <link href="https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://starwill.github.io/2017/01/21/Hexo+GitHub搭建个人博客/</id>
     <published>2017-01-20T16:00:00.000Z</published>
-    <updated>2017-03-01T06:37:45.119Z</updated>
+    <updated>2017-03-01T10:55:31.382Z</updated>
     
     <content type="html"><![CDATA[<h3 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架。不过我用起来更像是一个在Git上发布博客的工具。目前在GitHub上已有14043 star 和 2191 fork  </p>
 <h3 id="那么，什么又是Node-js"><a href="#那么，什么又是Node-js" class="headerlink" title="那么，什么又是Node.js?"></a>那么，什么又是Node.js?</h3><p>在这篇文章里又关于Node.js的详细叙述<a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js究竟是什么？</a>，不过对于还没入门的来说比较深奥，我个人理解就是JavaScript的运行环境了。<br><a id="more"></a></p>
@@ -120,7 +120,7 @@ tags: [GitHub,Hexo]
     <link href="https://starwill.github.io/2017/01/16/git%E5%AD%A6%E4%B9%A0/"/>
     <id>https://starwill.github.io/2017/01/16/git学习/</id>
     <published>2017-01-15T16:00:00.000Z</published>
-    <updated>2017-03-01T06:36:30.361Z</updated>
+    <updated>2017-03-01T10:54:55.834Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Git安装配置"><a href="#Git安装配置" class="headerlink" title="Git安装配置"></a>Git安装配置</h3><p>windows下安装直接下载<a href="https://www.git-scm.com/download/win" target="_blank" rel="external">Git</a>可执行文件，然后一键式安装就好。装好之后需要为你的机器设置一下名字和地址<br><code>git config --global user.name &quot;starwill&quot;</code><br><code>git config --global user.email &quot;email address&quot;</code><br>查看配置项：<code>git config -l</code><br><a id="more"></a></p>
 <h3 id="创建版本库以及添加文件（repository）"><a href="#创建版本库以及添加文件（repository）" class="headerlink" title="创建版本库以及添加文件（repository）"></a>创建版本库以及添加文件（repository）</h3><ol>
@@ -160,7 +160,7 @@ tags: [GitHub,Hexo]
     <link href="https://starwill.github.io/2016/12/26/markdown%E8%AF%AD%E6%B3%95/"/>
     <id>https://starwill.github.io/2016/12/26/markdown语法/</id>
     <published>2016-12-25T16:00:00.000Z</published>
-    <updated>2017-03-01T06:37:29.077Z</updated>
+    <updated>2017-03-01T10:55:05.857Z</updated>
     
     <content type="html"><![CDATA[<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p><img src="http://oi63esxp7.bkt.clouddn.com/1.jpg" alt=""><br><a id="more"></a></p>
 <h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p> <img src="http://oi63esxp7.bkt.clouddn.com/ni.jpg" alt=""></p>
