@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://starwill.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-03-05T08:05:05.761Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://starwill.github.io/2017/01/21/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2017-03-01T10:55:31.382Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://starwill.github.io/about/index.html</loc>
     
     <lastmod>2017-01-22T06:57:52.896Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://starwill.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-01-22T06:52:23.805Z</lastmod>
     
   </url>
   
