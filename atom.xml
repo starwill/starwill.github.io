@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://starwill.github.io/"/>
-  <updated>2017-03-01T10:54:54.090Z</updated>
+  <updated>2017-03-12T09:43:14.644Z</updated>
   <id>https://starwill.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>AS一个错误的解决办法</title>
+    <title>AS的R文件丢失异常</title>
     <link href="https://starwill.github.io/2017/03/01/AS%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     <id>https://starwill.github.io/2017/03/01/AS一个错误的解决办法/</id>
     <published>2017-03-01T05:52:39.000Z</published>
-    <updated>2017-03-01T10:54:54.090Z</updated>
+    <updated>2017-03-12T09:43:14.644Z</updated>
     
     <content type="html"><![CDATA[<p>最近开始项目实训，正踌躇满志的时候给我来个一天也没解决的bug，项目中没有报错，可是不管clean还是rebuild都无法找回丢失的R文件，错误如下：</p>
 <pre><code>Error:Execution failed for task &apos;:app:mergeDebugResources&apos;.
